@@ -1,0 +1,31 @@
+.product-details{
+    width:80%;
+    margin:50px auto;
+    display:flex;
+    gap:40px;
+    align-items:center;
+}
+
+.product-details img{
+    width:350px;
+    border-radius:10px;
+}
+
+.details h2{
+    font-size:30px;
+}
+
+.details h3{
+    color:#ff3f6c;
+}
+
+.details button{
+    padding:12px 25px;
+    margin-right:10px;
+    margin-top:20px;
+    border:none;
+    background:#ff3f6c;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}

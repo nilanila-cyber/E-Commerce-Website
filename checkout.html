@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Luna Trends</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+
+    <h1 class="section-title">Checkout Page</h1>
+
+    <!-- Selected Product -->
+    <div id="buy-product"></div>
+
+    <!-- Delivery Address -->
+    <h2 class="section-title">Delivery Address</h2>
+
+    <form class="checkout-form" id="checkout-form">
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name" required>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter phone number" required>
+
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter email address" required>
+
+        <label>Address</label>
+        <textarea placeholder="House No, Street, Area" rows="4" required></textarea>
+
+        <label>City</label>
+        <input type="text" placeholder="Enter city" required>
+
+        <label>State</label>
+        <input type="text" placeholder="Enter state" required>
+
+        <label>Pincode</label>
+        <input type="text" placeholder="Enter pincode" required>
+
+        <h3>Payment Method</h3>
+
+        <label>
+            <input type="radio" name="payment" value="cod" checked>
+            Cash on Delivery
+        </label>
+
+        <label>
+            <input type="radio" name="payment" value="upi">
+            UPI
+        </label>
+
+        <button type="submit" class="checkout-btn">
+            Place Order
+        </button>
+
+    </form>
+
+</body>
+</html>
